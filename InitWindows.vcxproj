@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="downloadFile.cpp" />
+    <ClCompile Include="convert_char.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="make_folder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="convert_char.h" />
+    <ClInclude Include="make_folder.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
